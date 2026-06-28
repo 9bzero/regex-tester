@@ -1,22 +1,28 @@
-# regex-tester
+# Regex Tester
 
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-
-> Interactive regular expression tester with real-time match highlighting
+Interactive regular expression tester — write a pattern, see matches highlighted in real time.
 
 ## Features
-- ⚡ Real-time regex evaluation as you type
-- 🔦 Yellow highlight on all matches in the test string
-- 🚩 Toggle g, i, m, s flags interactively
-- 📦 Built-in presets: Email, URL, Phone, Hex Color, IPv4
 
-## Tech Stack
-`React 18` · `TypeScript` · `Vite`
+- Real-time match highlighting as you type
+- Flag toggles: global, case-insensitive, multiline, dotAll, unicode
+- Capture group inspector with group names and values
+- Match list with index and length
+- Replace mode with substitution preview
+- Common regex cheat sheet sidebar
+- Error display with friendly explanations
 
-## Quick Start
+## Stack
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?style=flat&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-61dafb?style=flat&logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-646cff?style=flat&logo=vite&logoColor=white)
+
+## Run locally
+
 ```bash
 npm install && npm run dev
 ```
 
-## License
-[MIT](LICENSE)
+---
+Made by [9bzero](https://github.com/9bzero)
